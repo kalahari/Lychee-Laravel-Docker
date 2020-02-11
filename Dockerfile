@@ -34,7 +34,7 @@ RUN \
     git \
     composer && \
     cd /var/www/html && \
-    git clone --recurse-submodules https://github.com/LycheeOrg/Lychee-Laravel.git && \
+    git clone --recurse-submodules https://github.com/kalahari/Lychee-Laravel.git && \
     apt-get install -y composer && \
     cd /var/www/html/Lychee-Laravel && \
     composer install --no-dev && \
