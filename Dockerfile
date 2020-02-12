@@ -28,7 +28,7 @@ RUN apt-get update && \
     ffmpeg \
     composer
 
-COPY ../Lychee-Laravel /var/www/html/Lychee-Laravel
+COPY Lychee-Laravel /var/www/html/Lychee-Laravel
 WORKDIR /var/www/html/Lychee-Laravel
 
 RUN composer install --no-dev && \
